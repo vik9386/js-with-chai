@@ -14,6 +14,10 @@
 // 2. [](square bracket notation) ---> jb key string mein likha to tb ye use hota ha ["key"]
 
 
+
+//  using literals
+
+
 const myKey = Symbol("key1")
 
 const user={
