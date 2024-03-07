@@ -45,8 +45,36 @@ const obj3={5:"a",6:"b"}
 
 // console.log(newArray[1].loaction)
 
-console.log(Object.keys(tinderUser))
-console.log(Object.values(tinderUser))
-console.log(Object.entries(tinderUser))
+// console.log(Object.keys(tinderUser))
+// console.log(Object.values(tinderUser))
+// console.log(Object.entries(tinderUser))
 
-console.log(Object.hasOwnProperty("name"))
+// console.log(Object.hasOwnProperty("name"))
+
+// desrtucturing
+
+const course ={
+    courseName:"JS in hindi",
+    price:"999",
+    courseInstructor:"hitesh"
+}
+
+const {courseName:name,price ,courseInstructor:instructor} = course
+
+// console.log(instructor)
+// console.log(name)
+
+// json format
+
+// {
+//     "name":"hitesh",
+//     "price":"999",
+//     "instructor":"hitesh"
+// }
+
+
+// [
+    {},
+    {},
+    {}
+]
