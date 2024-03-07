@@ -39,7 +39,8 @@ const heroes=['shaktiman','naagraj']
 // console.log(myArr)
 // console.log(myNewn2)
 
-// slice method original array ko change nhi krta h jbki splice method original array ko disturb krta h
+// slice method original array ko change nhi krta h jbki splice
+//  method original array ko disturb krta h
 
 
 
