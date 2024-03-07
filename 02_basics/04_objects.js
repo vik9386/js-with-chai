@@ -74,7 +74,7 @@ const {courseName:name,price ,courseInstructor:instructor} = course
 
 
 // [
-    {},
-    {},
-    {}
-]
+//     {},
+//     {},
+//     {}
+// ]
