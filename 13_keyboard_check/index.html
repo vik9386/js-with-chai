@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="insert">
+        <div class="key">press key and get the key</div>
+    </div>
+    
+</body>
+<script>
+const insert = document.getElementById("insert")
+
+window.addEventListener('keydown',(e)=>{
+
+    insert.innerHTML = `
+    you type ${e.key} and key code is ${e.keyCode} and code is 
+    ${e.code}
+    `
+})
+</script>
+</html>
