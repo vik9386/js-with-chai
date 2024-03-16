@@ -27,3 +27,4 @@ const userOne = new User("vikash",12,true)
 const userTwo = new User("akash",11,false)
 console.log(userOne) 
 console.log(userTwo)
+
